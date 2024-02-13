@@ -1,8 +1,5 @@
-# The-Weirdos-NFT
+# Madboards-NFT
 This project was built using React JS and Styled Components.
-
-View Demo👇: <br />
-https://weirdos-nft.netlify.app/ <br />
 
 ### Resources Used in This Project
 
