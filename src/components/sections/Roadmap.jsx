@@ -52,27 +52,27 @@ const Roadmap = () => {
           <RoadmapItem
             addToRefs={addToRefs}
             title="Grand Opening"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            subtext="Be among the first to explore our curated collection of stunning NFTs, each a masterpiece in its own right."
           />
           <RoadmapItem
             addToRefs={addToRefs}
             title="Great Benefits"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            subtext="Support our mission and contribute to meaningful initiatives and causes through your involvement with our NFT project."
           />
           <RoadmapItem
             addToRefs={addToRefs}
             title="Early Access"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            subtext="Gain entry to exclusive events, communities, and experiences reserved only for NFT holders."
           />
           <RoadmapItem
             addToRefs={addToRefs}
             title="New Merch"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            subtext="Whether you're a seasoned collector or new to the NFT scene, there's something for everyone in our vibrant collection."
           />
           <RoadmapItem
             addToRefs={addToRefs}
             title="Holders Ranking"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            subtext="Designed to recognize and reward our most dedicated supporters, the Holders Ranking showcases the individuals who have demonstrated unwavering commitment to our project."
           />
         </Items>
       </Container>
@@ -246,6 +246,7 @@ const Text = styled.span`
   font-weight: 400;
   margin: 0.5rem 0rem;
   text-transform: capitalize;
+  line-height: 21px;
   color: ${(props) => props.theme.text};
 
   @media (max-width: 40em) {
